@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luizmattos_danielmachado_comp304_sec003_lab4_ex1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LuizMattos_DanielMachado_COMP304_SEC003_Lab4_Ex1">
+        <activity
+            android:name=".PatientActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestViewModel"
+            android:exported="true" />
+        <activity
+            android:name=".TestRepository"
+            android:exported="true" />
+        <activity
+            android:name=".Test"
+            android:exported="true" />
+        <activity
+            android:name=".PatientUpdateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PatientViewModel"
+            android:exported="true" />
+        <activity
+            android:name=".PatientRepository"
+            android:exported="true" />
+        <activity
+            android:name=".Patient"
+            android:exported="true" />
+        <activity
+            android:name=".PatientListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AppDatabase"
+            android:exported="true" />
+        <activity
+            android:name=".NurseRepository"
+            android:exported="true" />
+        <activity
+            android:name=".NurseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NurseViewModel"
+            android:exported="true" />
+        <activity
+            android:name=".Nurse"
+            android:exported="true" />
+        <activity
+            android:name=".AppManager"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

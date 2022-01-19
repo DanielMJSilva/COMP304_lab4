@@ -1,0 +1,81 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">Nurse and Patients</string>
+
+    <!-- Login -->
+    <string name="text_login">LOGIN</string>
+
+    <!-- General Messages -->
+    <string name="text_validation">Missing Fields!</string>
+    <string name="text_success">Patient submitted successfully!</string>
+    <string name="text_new_customer">Register here.</string>
+    <string name="text_invalid_customer">Invalid Username or Password.</string>
+
+    <!-- Customer -->
+    <string name="text_customer_add">ADD CUSTOMER</string>
+    <string name="text_customer_update">UPDATE CUSTOMER</string>
+    <string name="text_user_name">Username (please, use your email)</string>
+    <string name="text_password">Password</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_address">Address</string>
+    <string name="text_city">City</string>
+    <string name="text_postal_code">Postal code</string>
+    <string name="text_country">Country</string>
+    <string name="text_customer_new">Customer inserted successfully. Please, login.</string>
+    <string-array name="order_products">
+        <item>Loading Products</item>
+    </string-array>
+
+    <!-- Cake -->
+    <string name="text_type_logo">Centennial Cakes</string>
+    <string name="text_cake_add">ADD CAKE</string>
+    <string name="text_cake_update">UPDATE CAKE</string>
+    <string name="text_cake_name">Name</string>
+    <string name="text_cake_type">Type</string>
+    <string name="text_cake_colour">Colour</string>
+    <string name="text_cake_servings">Number of servings</string>
+    <string name="text_cake_flavour">Flavour</string>
+    <string-array name="order_customers">
+        <item>Loading Customers</item>
+    </string-array>
+
+    <!-- Order -->
+    <string name="text_order_add">ADD ORDER</string>
+    <string name="text_order_update">VIEW/UPDATE ORDER</string>
+    <string name="text_order_customer">Customer</string>
+    <string name="text_order_product">Product</string>
+    <string name="text_order_price">Price</string>
+    <string name="text_order_status">Status</string>
+    <string name="text_order_delivery_date">Status</string>
+    <string name="text_order_submit">New order submitted successfully!</string>
+    <string name="text_order_cancel">Order cancelled successfully!</string>
+    <string name="text_order_submitted">Ordered</string>
+    <string name="text_order_cancelled">Cancelled</string>
+
+    <!-- Update Order -->
+    <string name="text_order_number">Order Number</string>
+    <string name="text_order_details">ORDER DETAILS</string>
+    <string name="button_order_view">VIEW ORDER</string>
+    <string name="button_order_cancel">CANCEL ORDER</string>
+
+    <!-- Buttons -->
+    <string name="button_enter">ENTER</string>
+    <string name="button_register">REGISTER</string>
+    <string name="button_start">START</string>
+    <!--<string name="button_place_view_order">PLACE/VIEW ORDER</string>
+    <string name="button_order_view">VIEW ORDER</string>-->
+
+    <string name="button_submit">SUBMIT</string>
+    <!--<string name="button_customer_add">ADD CUSTOMER</string>
+    <string name="button_customer_update">UPDATE CUSTOMER</string>
+    <string name="button_cake_add">SUBMIT CAKE</string>
+    <string name="button_cake_update">SUBMIT CAKE</string>
+    <string name="button_order_add">ADD ORDER</string>
+    <string name="button_order_update">UPDATE ORDER</string>-->
+
+    <string name="button_next">NEXT</string>
+    <string name="button_confirm">CONFIRM</string>
+
+
+</resources>

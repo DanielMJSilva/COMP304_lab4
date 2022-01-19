@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="ADD Patient"
+        android:textAlignment="center"
+        android:textSize="36dp"/>
+
+        <EditText
+            android:id="@+id/P_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Patient ID"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/P_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="enter first name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/P_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="enter last name"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/P_department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="enter Department"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/P_nurseID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="enter nurse ID"
+            android:importantForAutofill="no"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/P_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="enter room"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_registerPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="patientAdd"
+            android:text="REGISTER" />
+
+</LinearLayout>
